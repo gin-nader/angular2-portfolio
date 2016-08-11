@@ -1,0 +1,158 @@
+@border: #00cccc;
+@dark: #000a1a;
+@light: #8A8A8A;
+#main_navigation {
+  padding: 1.5em 0 1em .5em;
+  border-bottom: 2px solid #00cccc;
+  background-color: #00cccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name {
+  font-weight: 800;
+  font-size: 1.2em;
+  border: 2px solid white;
+  padding: .5rem;
+  text-decoration: none !important;
+  color: white;
+  float: left;
+  font-family: 'Lobster', cursive;
+}
+
+.name:hover {
+  color: white !important;
+}
+
+.name:visited {
+    color: white;
+}
+
+.name:active {
+  color: white !important;
+}
+
+#nav_bar {
+  float: right;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.wrapper {
+  padding: 1em .5em;
+  background: white;
+  margin: .25em;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#banner {
+  padding: 5em 0 0 0;
+}
+
+a.nav_link {
+  color: white;
+}
+
+a.nav_link:hover {
+  background-color: #00cccc !important;
+  color: #8A8A8A;
+}
+
+a.nav_link:active {
+  background-color: #00cccc !important;
+  color: #8A8A8A !important;
+}
+
+
+.title {
+  text-align: center;
+}
+
+hr {
+  width: 8em;
+  display: block;
+  height: 2px;
+  border: 0;
+  background-color: #00cccc;
+  border-top: 2px soild #00cccc;
+  margin: 2rem auto;
+  margin-bottom: 2.5em;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+	color: #000a1a;
+}
+
+body {
+  font-family: 'Droid Sans', sans-serif;
+  background-color: #F0EFED;
+}
+
+.update {
+  border: 2px solid #00cccc;
+  padding: 1em .5em 1.25em .5em;
+  margin: .5em auto;
+}
+
+.date {
+  font-size: .7rem;
+  color: #8A8A8A;
+  font-weight: 700;
+  margin: 0 .5em 0 .5em;
+}
+
+.project_date {
+  font-size: .7rem;
+  color: #8A8A8A;
+  font-weight: 700;
+  margin: 0 .5em 1em .5em;
+}
+
+.button {
+  outline: none;
+  background: transparent;
+  background-color: white;
+  border-radius: 3px;
+  color: #000a1a;
+  border: 2px solid #00cccc;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+  margin-bottom: 1em !important;
+  padding: .5em 1.5em;
+}
+
+.button:hover {
+  background-color: #00cccc;
+  color: white;
+}
+
+#main_footer {
+  padding: 1.5em 5%;
+  border-top: 2px solid #00cccc;
+  margin-top: 1em;
+  background-color: #00cccc;
+}  
+
+.fa {
+    float: right;
+		color: white;
+		margin: 0 .15em 1em .15em;
+}
+
+.copyright {
+  color: white !important;
+}
+
+.fa-github:hover {
+  color: #333333;
+}
+
+.fa-linkedin-square:hover {
+  color: #0077b5;
+}
+}
